@@ -1,0 +1,54 @@
+# --- Secrets et Configurations ---
+# Ne jamais publier vos mots de passe, clés API ou identifiants de base de données
+.env
+config.json
+credentials.json
+secrets.py
+
+# --- Données et Fichiers Locaux ---
+# Les fichiers de données extraites ou transformées ne doivent pas être versionnés
+data/
+output/
+dataset/
+*.csv
+*.json
+*.parquet
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.duckdb
+
+# --- Caches et Logs ---
+# Fichiers de log générés lors de l'exécution
+*.log
+*.logs
+
+# Dossiers de cache des frameworks de Data (Pandas, Dask, Spark, etc.)
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- Environnements Virtuels ---
+# Dossiers des dépendances de votre projet
+venv/
+env/
+ENV/
+.env/
+myvenv/
+pip-selfcheck.json
+
+# --- Compilations et Build ---
+dist/
+build/
+*.egg-info/
+
+# --- IDE et OS ---
+# Fichiers spécifiques à votre éditeur de code
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
