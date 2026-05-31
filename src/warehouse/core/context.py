@@ -38,3 +38,4 @@ class WarehouseContext:
     dimensions: dict = None
 
     facts: dict = None
+
