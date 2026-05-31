@@ -1,4 +1,4 @@
-class DataQualityService:
+class DataQuality:
 
     def check_nulls(self, df):
         return df.isnull().sum()
